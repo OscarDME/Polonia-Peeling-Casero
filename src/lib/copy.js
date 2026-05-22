@@ -1,328 +1,354 @@
 // src/lib/copy.js
-// TODO el contenido visible de la landing vive aquí. Los componentes solo leen.
-// Idioma: Português brasileiro (pt-BR).
+// Cała treść tekstowa strony lądowania znajduje się tutaj. Komponenty tylko ją odczytują.
+// Język: Polski (pl-PL) - Transkreacja w stylu direct response z naturalnym, lokalnym brzmieniem.
 
 export const copy = {
+  // Dodatkowe teksty z kampanii (reklamy i oferty dodatkowe/upselle)
+  campaign: {
+    adText: {
+      headline: "Odkryj sekret 🔓",
+      body: "💫 Domowy peeling z efektami jak z gabinetu medycyny estetycznej!\nKojarzysz ten niesamowity blask i aksamitnie gładką cerę zaraz po wyjściu od kosmetyczki? 😍 Możesz osiągnąć dokładnie ten sam efekt u siebie w łazience, wydając na to dosłownie grosze!\nTen domowy zabieg:\n✨ Zwęża pory\n✨ Hamuje nadmierne przetłuszczanie się skóry\n✨ Rozjaśnia przebarwienia\n✨ Mocno stymuluje kolagen\n✨ Sprawia, że cera jest rozświetlona, jędrna i wyraźnie odmłodzona\n👉 Kliknij „Więcej informacji” poniżej i sprawdź, jak zyskać nieskazitelną cerę bez wydawania fortuny w salonach."
+    },
+    upsells: [
+      {
+        title: "👁️ Gumka na cienie: Sekretny trik na worki pod oczami i zmarszczki",
+        description: "Świetny wybór! Masz już peeling do odnowy twarzy, ale... skóra wokół oczu jest na niego zbyt cienka i delikatna. Idealna cera na niewiele się zda, jeśli cienie pod oczami dodadzą Ci 10 lat. Dorzuć do zamówienia ten tajny poradnik z 15 mikro-recepturami o działaniu liftingującym. Likwidują worki, zmazują zasinienia i wygładzają kurze łapki w zaledwie 5 minut. Odmłodź swoje spojrzenie błyskawicznie, bez grama botoksu!"
+      },
+      {
+        title: "💆‍♀️ Efekt „Liftingu”: 5-minutowy ujędrniający automasaż",
+        description: "Twoja skóra zyska piękny blask jak po wyjściu z kliniki, ale... peeling poprawia jedynie jej strukturę, nie napnie wiotczejących mięśni ani nie zlikwiduje drugiego podbródka. Nie pozwól, by grawitacja zepsuła cały efekt. Dobierz ten obrazkowy przewodnik z azjatyckimi technikami drenażu limfatycznego i masażu twarzy, które w naturalny sposób unoszą owal i rzeźbią linię żuchwy. Osiągnij wizualny efekt liftingu bez zbliżania się do skalpela!"
+      },
+      {
+        title: "💧 Naturalny „Botoks”: Serum wypełniające głębokie zmarszczki",
+        description: "Masz już sposób na zwężenie porów i usunięcie płytkich przebarwień, ale... co z tymi głębokimi bruzdami na czole i wokół ust? Peeling odnawia, ale nie wypełnia ubytków. Zgarnij tę sprawdzoną recepturę na ultrakoncentrowane, domowe serum, które naśladuje działanie kwasu hialuronowego w gabinecie. Wypełnij zmarszczki od wewnątrz i zamknij nawilżenie w swojej nowej, promiennej skórze!"
+      },
+      {
+        title: "✋ Wehikuł czasu: Niezawodny protokół na szyję i dłonie",
+        description: "Peeling całkowicie odmieni Twoją twarz, ale... 95% kobiet popełnia tu jeden fatalny błąd: zapominają o szyi i dłoniach, a to właśnie te dwie strefy natychmiast zdradzają nasz prawdziwy wiek. Nie dopuść do sytuacji, w której masz twarz 30-latki, a dłonie 50-latki. Dodaj tę specjalnie opracowaną formułę, która pogrubia, napina i usuwa plamy pigmentacyjne z delikatnej skóry dekoltu i wierzchu dłoni. Odmłodź swój wygląd kompleksowo!"
+      }
+    ]
+  },
+
   hero: {
-    banner: "EXCLUSIVO PARA MULHERES QUE QUEREM REATIVAR O COLÁGENO DA PELE",
-    timerLabels: { days: "Dias", hours: "Horas", minutes: "Minutos", seconds: "Segundos" },
-    timerNote: "Oferta termina em",
-    eyebrow: "PEELING CASEIRO ANTI-IDADE",
+    banner: "WYŁĄCZNIE DLA KOBIET, KTÓRE CHCĄ ODBUDOWAĆ KOLAGEN W SWOJEJ SKÓRZE",
+    timerLabels: { days: "Dni", hours: "Godzin", minutes: "Minut", seconds: "Sekund" },
+    timerNote: "Oferta wygasa za",
+    eyebrow: "DOMOWY PEELING ODMŁADZAJĄCY",
     headline: {
-      line1: "Peeling caseiro com",
-      highlight: "resultado profissional",
-      line2: "sem sair de casa.",
+      line1: "Domowy peeling, który daje",
+      highlight: "profesjonalne rezultaty",
+      line2: "bez wychodzenia z domu.",
     },
     subheadline:
-      "Economize tempo e dinheiro com uma receita testada e segura. Pele renovada, firme e iluminada em até 28 dias — desde a primeira aplicação.",
+      "Oszczędzaj czas i pieniądze dzięki sprawdzonej i całkowicie bezpiecznej recepturze. Zregenerowana, napięta i pełna blasku skóra do 28 dni — efekty zobaczysz już po pierwszym użyciu.",
     bullets: [
-      "Aplicação simples em menos de 20 minutos",
-      "Ingredientes acessíveis e seguros",
-      "Resultados visíveis já na primeira semana",
+      "Nakładasz go z łatwością w mniej niż 20 minut",
+      "Wykorzystujesz tanie i w 100% bezpieczne składniki",
+      "Widzisz realne rezultaty już w pierwszym tygodniu stosowania",
     ],
-    cta: "SIM, QUERO REATIVAR MEU COLÁGENO",
-    secondaryNote: "Garantia incondicional de 7 dias",
-    imageAlt: "Mockup do curso Peeling Caseiro Anti-Idade",
+    cta: "TAK, CHCĘ ODBUDOWAĆ MÓJ KOLAGEN",
+    secondaryNote: "14-dniowa bezwarunkowa gwarancja",
+    imageAlt: "Wizualizacja kursu Domowy Peeling Odmładzający",
   },
 
   story: {
-    eyebrow: "O QUE NÃO TE CONTAM",
-    headline: "As dermatologistas não querem que você descubra isso.",
+    eyebrow: "TO, CO PRZED TOBĄ UKRYWAJĄ",
+    headline: "Dermatolodzy woleliby, żebyś nigdy nie poznała tego sekretu.",
     paragraphs: [
-      "O ativo que clínicas de estética cobram caro para aplicar é o mesmo princípio que você pode preparar em casa, em poucos minutos, gastando uma fração do valor.",
-      "Pertence à família do ácido salicílico — comprovadamente eficaz na renovação celular, estímulo ao colágeno e atenuação de rugas, manchas e flacidez.",
-      "Por isso essa fórmula não circula em vídeos do YouTube nem em redes sociais. O mercado prefere que você continue pagando consultas caras todo mês.",
+      "Substancja aktywna, za którą kliniki medycyny estetycznej kasują setki złotych, to dokładnie ta sama baza, którą możesz przygotować samodzielnie w domu w kilka minut, wydając na to zaledwie parę groszy.",
+      "Pochodzi z rodziny kwasu salicylowego — jej skuteczność w odnowie komórkowej, stymulowaniu kolagenu i usuwaniu zmarszczek, przebarwień oraz wiotkości skóry jest udowodniona naukowo.",
+      "Właśnie dlatego tej formuły nie znajdziesz na pierwszych stronach w mediach społecznościowych. Przemysł kosmetyczny woli, żebyś co miesiąc wracała i płaciła za horrendalnie drogie wizyty."
     ],
     highlights: [
-      { value: "R$ 15", label: "por aplicação em casa" },
-      { value: "28 dias", label: "para ver a transformação completa" },
-      { value: "1ª sessão", label: "para sentir a pele mais lisa" },
+      { value: "Mniej niż 5 zł", label: "za domowy zabieg" },
+      { value: "28 dni", label: "do pełnej transformacji" },
+      { value: "1. sesja", label: "wystarczy, by poczuć wyjątkową gładkość" },
     ],
-    cta: "QUERO O MEU PEELING AGORA",
-    industryImageAlt: "O segredo da indústria farmacêutica revelado",
-    scienceImageAlt: "Comprovação científica do peeling com ácido salicílico",
+    cta: "CHCĘ MÓJ PEELING JUŻ TERAZ",
+    industryImageAlt: "Sekret branży kosmetycznej wyszedł na jaw",
+    scienceImageAlt: "Naukowe dowody na działanie peelingu kwasem salicylowym",
   },
 
   benefits: {
-    eyebrow: "O QUE SUA PELE VAI SENTIR",
-    headline: "Resultados que aparecem no espelho.",
+    eyebrow: "CO POCZUJE TWOJA SKÓRA",
+    headline: "Efekty, które od razu zobaczysz w lustrze.",
     subheadline:
-      "Uma rotina simples, pensada para mulheres que querem aparência saudável sem depender de procedimentos caros.",
+      "Nieskomplikowana rutyna stworzona z myślą o kobietach, które chcą wyglądać zdrowo i promiennie, bez uzależniania się od drogich zabiegów.",
     items: [
       {
-        title: "Rugas e linhas mais suaves",
-        desc: "Estímulo natural ao colágeno para amenizar marcas finas e profundas.",
+        title: "Wygładza drobne linie i głębokie zmarszczki",
+        desc: "Pobudza naturalną produkcję kolagenu, wypychając niedoskonałości od środka.",
       },
       {
-        title: "Pele mais firme e radiante",
-        desc: "Aspecto rejuvenescido com brilho saudável e textura aveludada.",
+        title: "Ujędrnia skórę i przywraca jej blask",
+        desc: "Odmładza ogólny wygląd twarzy, pozostawiając cerę aksamitnie miękką i świetlistą.",
       },
       {
-        title: "Manchas mais claras",
-        desc: "Renovação celular que ajuda a uniformizar o tom da pele.",
+        title: "Rozjaśnia uciążliwe przebarwienia",
+        desc: "Znacznie przyspiesza odnowę komórkową, aby wyrównać koloryt Twojej twarzy.",
       },
       {
-        title: "Poros visivelmente reduzidos",
-        desc: "Pele mais lisa ao toque, com aparência refinada.",
+        title: "Widocznie zwęża rozszerzone pory",
+        desc: "Sprawia, że skóra w dotyku staje się idealnie gładka, a jej struktura oczyszczona.",
       },
     ],
   },
 
   features: {
-    eyebrow: "O QUE VOCÊ VAI APRENDER",
-    headline: "6 módulos para transformar sua pele em 28 dias.",
-    subheadline: "Conteúdo direto ao ponto, sem enrolação. Você assiste, aplica e vê resultado.",
+    eyebrow: "CZEGO SIĘ DOWIESZ",
+    headline: "6 modułów, które odmienią Twoją cerę w 28 dni.",
+    subheadline: "Konkretna, praktyczna wiedza bez owijania w bawełnę. Oglądasz, nakładasz i widzisz różnicę.",
     items: [
       {
         n: "01",
-        title: "O Segredo das Pessoas que Não Envelhecem",
-        desc: "A mentalidade, os hábitos e a rotina das mulheres que envelhecem com qualidade.",
+        title: "Sekret kobiet, które się nie starzeją",
+        desc: "Odpowiednie nastawienie i codzienne nawyki pań, które starzeją się z niesamowitą klasą.",
       },
       {
         n: "02",
-        title: "Peeling Profissional e Barato",
-        desc: "A fórmula secreta com 3 ingredientes acessíveis: aspirina, vinagre e óleo.",
+        title: "Profesjonalny peeling za grosze",
+        desc: "Tajna formuła oparta na 3 tanich składnikach: aspirynie, occie i naturalnym olejku.",
       },
       {
         n: "03",
-        title: "Shot Anti-Idade para Estimular Colágeno",
-        desc: "Receita detox para apoiar o estímulo natural do colágeno por dentro.",
+        title: "Odmładzający shot pełen kolagenu",
+        desc: "Oczyszczająca receptura do picia, która uderzeniowo stymuluje kolagen od wewnątrz.",
       },
       {
         n: "04",
-        title: "Protocolo Sangue de Dragão",
-        desc: "Como usar o ativo amazônico para acelerar a recuperação pós-peeling.",
+        title: "Protokół „Smocza Krew”",
+        desc: "Jak wykorzystać tę potężną żywicę do ekspresowej regeneracji skóry po peelingu.",
       },
       {
         n: "05",
-        title: "Técnicas de Aplicação Profissional",
-        desc: "Passo a passo de como preparar e aplicar o peeling com gaze esterilizada.",
+        title: "Gabinetowe techniki aplikacji",
+        desc: "Krok po kroku: jak bezpiecznie przygotować i nałożyć peeling przy użyciu jałowej gazy.",
       },
       {
         n: "06",
-        title: "Resultados Visíveis e Segurança",
-        desc: "Cronograma de aplicação: pele mais lisa em 7 dias, transformação em 28.",
+        title: "Gwarancja wyników i pełne bezpieczeństwo",
+        desc: "Harmonogram zabiegów: gładsza cera w 7 dni, całkowita metamorfoza w 28 dni.",
       },
     ],
   },
 
   targetAudience: {
-    eyebrow: "ESSE CURSO É PRA VOCÊ SE…",
-    headline: "Você se reconhece em alguma destas situações?",
+    eyebrow: "TEN KURS JEST DLA CIEBIE, JEŚLI...",
+    headline: "Odnajdujesz się w którejś z tych sytuacji?",
     items: [
       {
-        title: "Sua pele está opaca, áspera e sem brilho",
-        desc: "Mesmo com cremes caros, a pele continua sem vida e cansada.",
-        imageAlt: "Mulher com pele opaca e sem viço",
+        title: "Twoja cera jest poszarzała, szorstka i bez wyrazu",
+        desc: "Nawet po nałożeniu drogich kremów, Twoja twarz wciąż wygląda na zmęczoną i pozbawioną życia.",
+        imageAlt: "Kobieta o zmęczonej, matowej cerze",
       },
       {
-        title: "As rugas estão ficando mais profundas",
-        desc: "As marcas de expressão começaram a se acentuar e te incomodam.",
-        imageAlt: "Pele com rugas profundas",
+        title: "Zmarszczki stają się coraz głębsze i bardziej widoczne",
+        desc: "Linie mimiczne zaczynają się utrwalać, przez co czujesz się starsza, niż jesteś w rzeczywistości.",
+        imageAlt: "Skóra z widocznymi zmarszczkami",
       },
       {
-        title: "Depois dos 35 a pele começou a cair",
-        desc: "A firmeza foi embora e a flacidez começou a aparecer.",
-        imageAlt: "Pele com flacidez",
+        title: "Po 35. roku życia owal twarzy zaczął opadać",
+        desc: "Jędrność gdzieś zniknęła, a grawitacja nieubłaganie robi swoje.",
+        imageAlt: "Utrata jędrności owalu twarzy",
       },
       {
-        title: "Os cosméticos caros não estão funcionando",
-        desc: "Você já gastou centenas em produtos que prometem e não entregam.",
-        imageAlt: "Produtos cosméticos que não funcionam",
+        title: "Drogie, markowe kosmetyki po prostu u Ciebie nie działają",
+        desc: "Wydałaś już setki złotych na produkty, które obiecywały cuda, a efektów jak nie było, tak nie ma.",
+        imageAlt: "Drogie, ale nieskuteczne kosmetyki",
       },
     ],
   },
 
   howItWorks: {
-    eyebrow: "PASSO A PASSO",
-    headline: "Aplicação simples, segura e em casa.",
+    eyebrow: "KROK PO KROKU",
+    headline: "Prosta i w 100% bezpieczna aplikacja w domu.",
     subheadline:
-      "Você precisa apenas de 20 minutos e três ingredientes que cabem na sua bolsa.",
+      "Potrzebujesz tylko 20 minut i trzech składników, które najprawdopodobniej już teraz masz w swojej kuchni.",
     steps: [
       {
         n: "01",
-        title: "Prepare a fórmula",
-        desc: "Misture os ingredientes nas proporções ensinadas no vídeo. Tudo é caseiro e acessível.",
+        title: "Przygotuj formułę",
+        desc: "Wymieszaj składniki w odpowiednich proporcjach (wszystko dokładnie pokazuję na wideo). Wszystko jest domowe i ogólnodostępne.",
       },
       {
         n: "02",
-        title: "Aplique com a gaze esterilizada",
-        desc: "Movimentos suaves no rosto seguindo a técnica profissional. Sem dor, sem queimação.",
+        title: "Nałóż za pomocą sterylnej gazy",
+        desc: "Wykonuj delikatne ruchy, podążając za profesjonalną techniką z nagrania. Zero bólu i uciążliwego pieczenia.",
       },
       {
         n: "03",
-        title: "Resultado em dias",
-        desc: "Pele mais lisa em 7 dias. Em 28 dias, a transformação completa: viço, firmeza e luminosidade.",
+        title: "Ciesz się niesamowitymi rezultatami",
+        desc: "Zauważalnie gładsza skóra już po 7 dniach. A po 28 dniach – absolutna transformacja: jędrność, świeżość i naturalny blask.",
       },
     ],
-    leftImageAlt: "Mulher aplicando o peeling caseiro com gaze",
-    rightImageAlt: "Resultado antes e depois do peeling caseiro",
+    leftImageAlt: "Kobieta nakładająca domowy peeling za pomocą gazy",
+    rightImageAlt: "Rezultaty przed i po zastosowaniu domowego peelingu",
   },
 
   carouselSection: {
-    eyebrow: "RESULTADOS REAIS",
-    headline: "Mulheres reais. Transformações reais.",
-    subheadline: "Veja o antes e depois de quem aplicou o protocolo em casa.",
-    cta: "QUERO ESSES RESULTADOS",
+    eyebrow: "PRAWDZIWE EFEKTY",
+    headline: "Zwykłe kobiety. Niezwykłe metamorfozy.",
+    subheadline: "Zobacz zdjęcia PRZED i PO kobiet, które wdrożyły ten protokół u siebie w domu.",
+    cta: "TEŻ CHCĘ TAKICH REZULTATÓW",
   },
 
   bonuses: {
-    badge: "TUDO INCLUSO",
-    headline: "O que você recebe ao garantir hoje",
-    subheadline: "Acesso vitalício ao curso completo + bônus exclusivos.",
+    badge: "WSZYSTKO W CENIE",
+    headline: "Co zyskujesz, dołączając już dziś",
+    subheadline: "Dożywotni dostęp do pełnego kursu + ekskluzywne bonusy.",
     items: [
       {
-        title: "Acesso à plataforma ES Vídeos",
-        desc: "A maior plataforma de estética e saúde do Brasil — incluído na compra.",
+        title: "Dostęp do platformy ES Video",
+        desc: "Najlepsza platforma o zdrowiu i estetyce – wliczona w cenę bez abonamentu.",
       },
       {
-        title: "Vídeo da Receita Secreta do Peeling",
-        desc: "A fórmula completa, com proporções exatas e demonstração prática.",
+        title: "Wideo z tajną recepturą peelingu",
+        desc: "Kompletna formuła, idealne proporcje i pokaz aplikacji w praktyce.",
       },
       {
-        title: "Shot Anti-Idade para Colágeno",
-        desc: "Receita do drinque detox que potencializa o resultado por dentro.",
+        title: "Odmładzający shot kolagenowy",
+        desc: "Receptura na pyszny, domowy napój detoksykujący, który potęguje efekty od środka.",
       },
       {
-        title: "Protocolo Sangue de Dragão",
-        desc: "Vídeo passo a passo de recuperação pós-peeling com o ativo amazônico.",
+        title: "Protokół „Smocza Krew”",
+        desc: "Film pokazujący krok po kroku, jak błyskawicznie zregenerować skórę po peelingu za pomocą tej wyjątkowej żywicy.",
       },
       {
-        title: "Guia Passo a Passo em PDF",
-        desc: "Material em PDF para imprimir e seguir cada aplicação com segurança.",
+        title: "Przewodnik krok po kroku (PDF)",
+        desc: "Wygodny materiał PDF gotowy do druku, byś mogła mieć instrukcję zawsze pod ręką.",
       },
     ],
   },
 
   testimonials: {
-    eyebrow: "DEPOIMENTOS",
-    headline: "Você não precisa acreditar em mim. Acredite nessas mulheres.",
+    eyebrow: "OPINIE",
+    headline: "Nie musisz mi wierzyć na słowo. Posłuchaj tych kobiet.",
     items: [
       {
-        name: "Mariana",
-        role: "São Paulo, SP",
+        name: "Anna",
+        role: "Warszawa",
         quote:
-          "Eu tinha medo de mexer na pele em casa. Segui o passo a passo e a diferença na primeira semana já era visível. Hoje sou outra pessoa no espelho.",
+          "Trochę się bałam robić taki zabieg sama w domu. Ale szłam krok po kroku z wideo i różnica już w pierwszym tygodniu zwaliła mnie z nóg. Dziś jestem zupełnie nową osobą, gdy patrzę w lustro.",
       },
       {
-        name: "Cláudia",
-        role: "Belo Horizonte, MG",
+        name: "Maria",
+        role: "Kraków",
         quote:
-          "Gastava fortuna em clínica e não conseguia manter. Em casa eu aplico tranquila, sem dor e o custo é ridículo perto do resultado.",
+          "Zostawiałam w klinikach majątek i na dłuższą metę nie było mnie na to stać. W domu robię to na spokojnie, bez bólu, a koszt jest po prostu śmieszny w porównaniu z efektem, jaki mam na twarzy.",
       },
       {
-        name: "Renata",
-        role: "Curitiba, PR",
+        name: "Sylwia",
+        role: "Gdańsk",
         quote:
-          "Minhas amigas perguntaram o que eu estava fazendo. As manchinhas clarearam e a textura ficou lisinha. Recomendo sem pensar.",
+          "Koleżanki ciągle pytają, co sobie poprawiłam. Przebarwienia zbladły, a skóra zrobiła się gładka jak jedwab. Polecam z całego serca każdej kobiecie.",
       },
     ],
-    socialBadge: "REAIS DAS REDES SOCIAIS",
-    socialHeadline: "Depoimentos reais das alunas",
-    socialAlt: "Depoimentos de alunas no Instagram",
+    socialBadge: "PRAWDZIWE OPINIE Z SIECI",
+    socialHeadline: "Szczere komentarze naszych kursantek",
+    socialAlt: "Opinie kursantek z Instagrama",
   },
 
   finalCta: {
-    badge: "OFERTA POR TEMPO LIMITADO",
-    headline: "Comece hoje. Garantia de 7 dias.",
+    badge: "OFERTA LIMITOWANA CZASOWO",
+    headline: "Zacznij od dziś. Masz 14 dni gwarancji.",
     guaranteeText:
-      "Se em 7 dias você não amar os resultados, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia. O risco é todo meu.",
-    bundleHeadline: "O que você leva ao clicar agora",
+      "Jeśli w ciągu 14 dni od zakupu nie zakochasz się w rezultatach, oddamy Ci 100% wpłaconych pieniędzy. Bez zbędnych pytań i bez papierologii. Całe ryzyko biorę na siebie.",
+    bundleHeadline: "Co otrzymujesz, klikając teraz:",
     bundleList: [
-      "Curso completo do Peeling Anti-Idade",
-      "Shot Anti-Idade para Colágeno",
-      "Protocolo Sangue de Dragão",
-      "Guia passo a passo em PDF",
-      "Acesso vitalício à plataforma ES Vídeos",
+      "Pełny kurs „Domowy Peeling Odmładzający”",
+      "Przepis na odmładzający shot kolagenowy",
+      "Protokół regeneracyjny „Smocza Krew”",
+      "Przewodnik krok po kroku w wygodnym PDF-ie",
+      "Dożywotni dostęp do platformy ES Video",
     ],
-    regularPriceLabel: "De",
-    regularPrice: "R$ 97,90",
-    offerLabel: "Por apenas",
-    offerPrice: "R$ 47,00",
-    installments: "ou em até 12x no cartão",
-    economy: "Economia de 49%",
-    urgencyText: "Oferta válida apenas hoje",
-    button: "QUERO REATIVAR MEU COLÁGENO AGORA",
-    secureNote: "Compra 100% segura · Pagamento processado pela OrioPay",
-    imageAlt: "Mockup do Peeling Caseiro Anti-Idade",
-    guaranteeImageAlt: "Selo de garantia de 7 dias",
+    regularPriceLabel: "Od",
+    regularPrice: "89 zł",
+    offerLabel: "Tylko za",
+    offerPrice: "30 zł",
+    installments: "Jednorazowa płatność",
+    economy: "Oszczędzasz ponad 60%",
+    urgencyText: "Oferta obowiązuje tylko dzisiaj",
+    button: "CHCĘ ODBUDOWAĆ MÓJ KOLAGEN TERAZ",
+    secureNote: "100% bezpieczna płatność · Przetwarzane przez OrioPay",
+    imageAlt: "Wizualizacja kursu Domowy Peeling Odmładzający",
+    guaranteeImageAlt: "Pieczęć 14-dniowej gwarancji satysfakcji",
   },
 
   about: {
-    eyebrow: "QUEM ESTÁ POR TRÁS",
-    title: "A Esteticista dos Famosos",
-    name: "Patrícia Elias",
+    eyebrow: "KTO ZA TYM STOI",
+    title: "Ekspertka od wizerunku z polecenia",
+    name: "Katarzyna Wiśniewska",
     paragraphs: [
-      "Patrícia Elias é referência nacional em estética facial e cuidado da pele. Desenvolveu protocolos naturais para manchas, melasma, acne e queda capilar que já ajudaram milhares de mulheres a recuperar a autoestima.",
-      "É criadora da Clínica Patrícia Elias e da loja de dermocosméticos da marca. Comanda o maior canal de saúde e beleza no YouTube em português, com 7,68 milhões de inscritos.",
-      "Sua proposta é simples: resultado real, com carinho e ciência — sem depender de tratamentos caros ou produtos importados.",
+      "Katarzyna Wiśniewska to czołowa ekspertka w dziedzinie estetyki twarzy i pielęgnacji anti-aging w Polsce. Opracowała naturalne protokoły walki z przebarwieniami, melazmą, trądzikiem czy wypadaniem włosów, które pomogły już tysiącom Polek odzyskać pewność siebie.",
+      "Jest założycielką renomowanej kliniki oraz autorskiej marki dermokosmetycznej. Prowadzi najpopularniejszy w Polsce kanał o zdrowiu i urodzie na YouTube, gromadząc miliony wyświetleń.",
+      "Jej filozofia jest prosta: dawać prawdziwe, mierzalne efekty, opierając się na wiedzy i trosce — bez skazywania kobiet na uzależnienie od nieziemsko drogich zabiegów medycyny estetycznej.",
     ],
     stats: [
-      { value: "7,68M", label: "Inscritos no YouTube" },
-      { value: "+1.000", label: "Mulheres atendidas" },
-      { value: "Brasil", label: "Referência em pele" },
+      { value: "7,68M", label: "Subskrypcji na YouTube" },
+      { value: "+1 000", label: "Zadowolonych pacjentek" },
+      { value: "Polska", label: "Ekspertka ds. urody" },
     ],
-    photoAlt: "Patrícia Elias, esteticista referência no Brasil",
+    photoAlt: "Katarzyna Wiśniewska, czołowa polska ekspertka od estetyki",
   },
 
   faq: {
-    eyebrow: "DÚVIDAS FREQUENTES",
-    headline: "Tudo o que você precisa saber antes de garantir.",
+    eyebrow: "CZĘSTO ZADAWANE PYTANIA",
+    headline: "Wszystko, co musisz wiedzieć przed zakupem.",
     items: [
       {
-        q: "O que estou comprando exatamente?",
-        a: "Você está adquirindo o mini-curso digital do Peeling Caseiro Anti-Idade, com acesso à plataforma ES Vídeos. O conteúdo ensina a fórmula, a aplicação correta, o shot anti-idade e o protocolo de segurança.",
+        q: "Co dokładnie kupuję?",
+        a: "Kupujesz cyfrowy mini-kurs „Domowy Peeling Odmładzający” wraz z dostępem do platformy ES Video. Treści te nauczą Cię dokładnej formuły, odpowiedniej techniki aplikacji peelingu, podadzą przepis na kolagenowy shot oraz protokół pełnego bezpieczeństwa.",
       },
       {
-        q: "O que vem incluso na compra?",
-        a: "Vídeo com a fórmula secreta, guia detalhado em PDF e acesso à plataforma ES Vídeos com cursos e conteúdos complementares.",
+        q: "Co jest zawarte w tej cenie?",
+        a: "Szczegółowe wideo z tajną recepturą, praktyczny przewodnik PDF oraz dostęp do nowoczesnej platformy ES Video z dodatkowymi materiałami.",
       },
       {
-        q: "Como vou receber o conteúdo?",
-        a: "Após a aprovação do pagamento você recebe por e-mail o link da plataforma com o vídeo e o guia em PDF. Verifique também a caixa de spam. A entrega costuma sair em poucos minutos.",
+        q: "Jak otrzymam dostęp do kursu?",
+        a: "Od razu po zaksięgowaniu płatności otrzymasz na swojego e-maila link do platformy szkoleniowej, na której czekają na Ciebie wszystkie materiały (wideo i PDF). Na wszelki wypadek sprawdź też folder SPAM. Zazwyczaj mail dociera w kilka minut.",
       },
       {
-        q: "Em quanto tempo após a compra eu recebo o material?",
-        a: "A entrega é imediata após a aprovação do pagamento — geralmente em minutos.",
+        q: "Ile będę czekać na dostęp po zapłaceniu?",
+        a: "Dostarczenie linków jest w 100% zautomatyzowane i odbywa się natychmiast po potwierdzeniu płatności – najczęściej w mniej niż minutę.",
       },
       {
-        q: "Quem pode fazer o Peeling Caseiro?",
-        a: "Indicado para mulheres e homens a partir dos 35 anos que querem reativar o colágeno e reduzir rugas, manchas e falta de viço. Não é indicado para quem tem alergia à aspirina, pele extremamente sensível ou feridas abertas. Teste de alergia é obrigatório antes da primeira aplicação.",
+        q: "Dla kogo jest ten domowy peeling?",
+        a: "Jest to metoda idealna dla kobiet i mężczyzn po 35. roku życia, którym zależy na pobudzeniu produkcji kolagenu, spłyceniu zmarszczek, pozbyciu się plam oraz odzyskaniu zdrowego blasku cery. Zabiegu NIE zaleca się osobom uczulonym na aspirynę, posiadającym skrajnie wrażliwą, naczynkową skórę czy otwarte rany. Przed pierwszą aplikacją obowiązkowo należy wykonać szybki test alergiczny na małym fragmencie skóry.",
       },
       {
-        q: "Funciona mesmo?",
-        a: "Sim. O princípio ativo (ácido acetilsalicílico) pertence à mesma família dos ácidos usados em clínica para renovação celular: remove a camada de células mortas e estimula colágeno. O resultado é comparável a peelings superficiais a uma fração do custo.",
+        q: "Czy to naprawdę zadziała?",
+        a: "Tak. Substancja aktywna (kwas acetylosalicylowy) wywodzi się z tej samej grupy kwasów, które na co dzień wykorzystuje się w profesjonalnych klinikach do odnowy komórkowej: złuszcza warstwę martwego naskórka i pobudza fibroblasty do produkcji kolagenu. Daje efekt porównywalny do gabinetowego peelingu chemicznego, ale za ułamek jego ceny.",
       },
       {
-        q: "Como são ministradas as aulas e o conteúdo?",
-        a: "Em vídeo-aulas combinadas com textos informativos, em formato simples e direto ao ponto.",
+        q: "W jakiej formie są lekcje?",
+        a: "To bardzo konkretne i zrozumiałe lekcje wideo, połączone z niezbędnymi informacjami tekstowymi – łatwe do przyswojenia i natychmiastowego zastosowania.",
       },
       {
-        q: "Há garantia de satisfação?",
-        a: "Sim. Você tem 7 dias para testar. Se não ficar satisfeita, basta entrar em contato com o suporte e devolvemos 100% do valor, sem perguntas.",
+        q: "Czy mam jakąś gwarancję satysfakcji?",
+        a: "Oczywiście. Masz aż 14 dni, żeby na spokojnie przetestować tę metodę u siebie w domu. Jeśli uznasz, że nie jesteś zachwycona, po prostu napisz do naszego biura obsługi klienta, a zwrócimy Ci 100% zapłaconej kwoty, bez zadawania pytań.",
       },
     ],
   },
 
   closing: {
-    eyebrow: "POR POUCO TEMPO",
-    headline: "Sua pele pode estar diferente em 28 dias.",
-    body: "A decisão é simples: continuar gastando com cremes que não funcionam, ou investir uma única vez em um método natural, prático e com garantia incondicional.",
-    cta: "QUERO COMEÇAR AGORA",
-    timerNote: "Oferta termina em",
-    timerLabels: { days: "Dias", hours: "Horas", minutes: "Minutos", seconds: "Segundos" },
+    eyebrow: "OFERTA OGRANICZONA CZASOWO",
+    headline: "Twoja cera może wyglądać zupełnie inaczej już za 28 dni.",
+    body: "Wybór jest banalnie prosty: możesz dalej wydawać pieniądze na kremy, które po prostu nie działają, albo zainwestować jednorazowo w naturalną, praktyczną i w 100% sprawdzoną metodę objętą gwarancją.",
+    cta: "CHCĘ ZACZĄĆ JUŻ TERAZ",
+    timerNote: "Oferta wygasa za",
+    timerLabels: { days: "Dni", hours: "Godzin", minutes: "Minut", seconds: "Sekund" },
   },
 
   footer: {
-    brand: "Patrícia Elias",
-    tagline: "Beleza com ciência e carinho.",
-    rights: "Todos os direitos reservados.",
+    brand: "Katarzyna Wiśniewska",
+    tagline: "Piękno zbudowane na nauce i trosce.",
+    rights: "Wszelkie prawa zastrzeżone.",
     legalLinks: [
-      { label: "Política de Privacidade", href: "#" },
-      { label: "Termos de Uso", href: "#" },
+      { label: "Polityka Prywatności", href: "#" },
+      { label: "Regulamin Serwisu", href: "#" },
     ],
     disclaimer:
-      "Este site não é afiliado a Facebook ou Meta. Resultados podem variar de acordo com cada organismo.",
+      "Ta strona nie jest powiązana w żaden sposób z Facebookiem ani firmą Meta. Końcowe efekty zależą od indywidualnych uwarunkowań organizmu.",
   },
 
   pixel: {
@@ -330,16 +356,16 @@ export const copy = {
   },
 
   a11y: {
-    skipToContent: "Pular para o conteúdo",
-    faqExpand: "Expandir resposta",
-    faqCollapse: "Recolher resposta",
-    carouselPrev: "Imagem anterior",
-    carouselNext: "Próxima imagem",
+    skipToContent: "Przejdź do treści głównej",
+    faqExpand: "Rozwiń odpowiedź",
+    faqCollapse: "Zwiń odpowiedź",
+    carouselPrev: "Poprzednie zdjęcie",
+    carouselNext: "Następne zdjęcie",
   },
 
   metadata: {
-    title: "Peeling Caseiro Anti-Idade | Patrícia Elias",
+    title: "Domowy Peeling Odmładzający | Katarzyna Wiśniewska",
     description:
-      "Aprenda o peeling caseiro com resultado profissional. Pele renovada, firme e iluminada em até 28 dias. Garantia de 7 dias.",
+      "Sprawdź, jak wykonać domowy peeling z profesjonalnymi rezultatami. Odnowiona, napięta i promienna skóra w zaledwie 28 dni. 14 dni gwarancji.",
   },
 };
